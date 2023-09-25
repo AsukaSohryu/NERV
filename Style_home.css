@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-family: "Poppins";
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(121, 29, 207, 0.7), rgba(121, 29, 207, 0.7)), url(Images/Space\ home\ BG.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+}
+
+nav img{
+    width: 75px;
+}
+
+.nav-link ul{
+    display: flex;
+
+}
+
+.link{
+    padding: 10px;
+}
+
+.nav-link ul li {
+
+    list-style: none;
+    display: flex;
+    padding: 8px 12 px;
+}
+
+.nav-link ul li a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.banner-text{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    font-size: (1vw + 13px);
+    color: white;
+    /* text-transform: uppercase; */
+}
+
+.isi{
+
+    font-family: "Poppins";
+    text-align: center;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin-bottom: 10vh;
+}
+
+.planets{
+
+    font-size: calc(1vw + 20px);
+}
+
+.planets-desc{
+
+    font-size: calc(1vw + 12px);
+}
+
+.name-planets{
+
+    gap: 100px;
+    height: auto;
+}
+
+.isi{
+
+    background-image: linear-gradient(rgba(121, 29, 207, 0.8), rgba(121, 29, 207, 0.8)), url(Images/Space\ BG.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: beige;
+    margin-bottom: 0px;
+}
+
+.planet-card{
+
+    padding: 20px;
+    gap: 100px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: rgba(88, 6, 159, 0.429); */
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+
+.mercury-pic{
+
+    height: 100px;
+}
+
+.footer{
+
+    background-color: #1a1a1a;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer-text{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-bawah{
+
+    height: 50px;
+}
+
+.mercury-pic:hover{
+
+    transform: scale(1.2);
+}
